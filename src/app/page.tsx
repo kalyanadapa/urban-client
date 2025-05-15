@@ -1,9 +1,8 @@
 // import Image from "next/image";
 
+"use client";
+
+import { Button } from '@mui/material';
 export default function Home() {
-  return (
-   <div>
-     welcome to urban company
-   </div>
-  );
+  return <Button variant="contained">Urban client set up done</Button>;
 }
