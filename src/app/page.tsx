@@ -1,8 +1,7 @@
-// import Image from "next/image";
-
 "use client";
-
-import { Button } from '@mui/material';
+import HomeView from '@/views/home/home'
 export default function Home() {
-  return <Button variant="contained">Urban client set up done</Button>;
+  return (<>
+  <HomeView searchParams={undefined}/>
+  </>)
 }
